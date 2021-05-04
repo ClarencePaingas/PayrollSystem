@@ -519,11 +519,6 @@ namespace PayrollSystem
             }
         }
 
-        static void AddReviewLogs(string input)
-        {
-
-            AddPayrollReview($"{input}");
-        }
 
         static void AddPayrollReview(string input)
         {
