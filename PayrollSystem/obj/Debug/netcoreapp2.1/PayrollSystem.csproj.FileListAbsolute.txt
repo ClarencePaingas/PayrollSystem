@@ -1,0 +1,12 @@
+C:\Users\Clarence Paingas\source\repos\PayrollSystem\PayrollSystem\bin\Debug\netcoreapp2.1\PayrollSystem.deps.json
+C:\Users\Clarence Paingas\source\repos\PayrollSystem\PayrollSystem\bin\Debug\netcoreapp2.1\PayrollSystem.runtimeconfig.json
+C:\Users\Clarence Paingas\source\repos\PayrollSystem\PayrollSystem\bin\Debug\netcoreapp2.1\PayrollSystem.runtimeconfig.dev.json
+C:\Users\Clarence Paingas\source\repos\PayrollSystem\PayrollSystem\bin\Debug\netcoreapp2.1\PayrollSystem.dll
+C:\Users\Clarence Paingas\source\repos\PayrollSystem\PayrollSystem\bin\Debug\netcoreapp2.1\PayrollSystem.pdb
+C:\Users\Clarence Paingas\source\repos\PayrollSystem\PayrollSystem\obj\Debug\netcoreapp2.1\PayrollSystem.csprojAssemblyReference.cache
+C:\Users\Clarence Paingas\source\repos\PayrollSystem\PayrollSystem\obj\Debug\netcoreapp2.1\PayrollSystem.AssemblyInfoInputs.cache
+C:\Users\Clarence Paingas\source\repos\PayrollSystem\PayrollSystem\obj\Debug\netcoreapp2.1\PayrollSystem.AssemblyInfo.cs
+C:\Users\Clarence Paingas\source\repos\PayrollSystem\PayrollSystem\obj\Debug\netcoreapp2.1\PayrollSystem.csproj.CoreCompileInputs.cache
+C:\Users\Clarence Paingas\source\repos\PayrollSystem\PayrollSystem\obj\Debug\netcoreapp2.1\PayrollSystem.dll
+C:\Users\Clarence Paingas\source\repos\PayrollSystem\PayrollSystem\obj\Debug\netcoreapp2.1\PayrollSystem.pdb
+C:\Users\Clarence Paingas\source\repos\PayrollSystem\PayrollSystem\obj\Debug\netcoreapp2.1\PayrollSystem.genruntimeconfig.cache
