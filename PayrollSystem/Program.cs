@@ -5,10 +5,10 @@ namespace PayrollSystem
 {
     class Program
     {
-        private static List<string> reviews = new List<string>();
+        private static readonly List<string> reviews = new List<string>();
         public static List<string> actionsDescription = new List<string>()
         {
-            "\na - Create Payroll",
+            "\na - Create Payrollhaha",
             "\nb - Employee Management",
             "\nc - Log Out"
         };
@@ -152,7 +152,7 @@ namespace PayrollSystem
                 userInput != actions.IndexOf('c');
                 userInput = GetUserInputIndexValue())
             {
-                var message = String.Empty;
+                
                 if (userInput.Equals(actions.IndexOf('a')))
                 {
                     Console.Clear();
@@ -228,7 +228,7 @@ namespace PayrollSystem
                 payTypeInput != payTypes.IndexOf('c');
                 payTypeInput = GetPayTypeIndexValue())
             {
-                var message = String.Empty;
+                
                 if (payTypeInput.Equals(payTypes.IndexOf('a')))
                 {
                     ShowMonthlyOption();
@@ -404,7 +404,7 @@ namespace PayrollSystem
                 processingInput != payrollOptions.IndexOf('c');
                 processingInput = GetPayrollProcessingIndexValue())
             {
-                var message = String.Empty;
+                
                 if (processingInput.Equals(payrollOptions.IndexOf('a')))
                 {
                     Console.WriteLine("\n-------------------------------------------------------------------");
@@ -468,7 +468,7 @@ namespace PayrollSystem
                 processingInput2 != payrollOptions2.IndexOf('b');
                 processingInput2 = GetPayrollProcessingIndexValue2())
             {
-                var message = String.Empty;
+                
                 if (processingInput2.Equals(payrollOptions2.IndexOf('a')))
                 {
                     Console.WriteLine("\n-------------------------------------------------------------------");
@@ -553,7 +553,7 @@ namespace PayrollSystem
                 managementInput != managementOptions.IndexOf('c');
                 managementInput = GetEmployeeManagementIndexValue())
             {
-                var message = String.Empty;
+                
                 if (managementInput.Equals(managementOptions.IndexOf('a')))
                 {
                     DisplayAddEmployee();
@@ -674,7 +674,7 @@ namespace PayrollSystem
                 employeeInput != addOptions.IndexOf('b');
                 employeeInput = GetAddEmployeeIndexValue())
             {
-                var message = String.Empty;
+                
                 if (employeeInput.Equals(addOptions.IndexOf('a')))
                 {
                     DisplayEmployeeInformations();

@@ -1,0 +1,16 @@
+C:\Users\Clarence Paingas\source\repos\PayrollSystem\PAYROLLSYSTEM.UI\bin\Debug\netcoreapp3.1\PAYROLLSYSTEM.UI.exe
+C:\Users\Clarence Paingas\source\repos\PayrollSystem\PAYROLLSYSTEM.UI\bin\Debug\netcoreapp3.1\PAYROLLSYSTEM.UI.deps.json
+C:\Users\Clarence Paingas\source\repos\PayrollSystem\PAYROLLSYSTEM.UI\bin\Debug\netcoreapp3.1\PAYROLLSYSTEM.UI.runtimeconfig.json
+C:\Users\Clarence Paingas\source\repos\PayrollSystem\PAYROLLSYSTEM.UI\bin\Debug\netcoreapp3.1\PAYROLLSYSTEM.UI.runtimeconfig.dev.json
+C:\Users\Clarence Paingas\source\repos\PayrollSystem\PAYROLLSYSTEM.UI\bin\Debug\netcoreapp3.1\PAYROLLSYSTEM.UI.dll
+C:\Users\Clarence Paingas\source\repos\PayrollSystem\PAYROLLSYSTEM.UI\bin\Debug\netcoreapp3.1\PAYROLLSYSTEM.UI.pdb
+C:\Users\Clarence Paingas\source\repos\PayrollSystem\PAYROLLSYSTEM.UI\bin\Debug\netcoreapp3.1\PAYROLLSYSTEM.BL.dll
+C:\Users\Clarence Paingas\source\repos\PayrollSystem\PAYROLLSYSTEM.UI\bin\Debug\netcoreapp3.1\PAYROLLSYSTEM.BL.pdb
+C:\Users\Clarence Paingas\source\repos\PayrollSystem\PAYROLLSYSTEM.UI\obj\Debug\netcoreapp3.1\PAYROLLSYSTEM.UI.csprojAssemblyReference.cache
+C:\Users\Clarence Paingas\source\repos\PayrollSystem\PAYROLLSYSTEM.UI\obj\Debug\netcoreapp3.1\PAYROLLSYSTEM.UI.AssemblyInfoInputs.cache
+C:\Users\Clarence Paingas\source\repos\PayrollSystem\PAYROLLSYSTEM.UI\obj\Debug\netcoreapp3.1\PAYROLLSYSTEM.UI.AssemblyInfo.cs
+C:\Users\Clarence Paingas\source\repos\PayrollSystem\PAYROLLSYSTEM.UI\obj\Debug\netcoreapp3.1\PAYROLLSYSTEM.UI.csproj.CoreCompileInputs.cache
+C:\Users\Clarence Paingas\source\repos\PayrollSystem\PAYROLLSYSTEM.UI\obj\Debug\netcoreapp3.1\PAYROLLSYSTEM.UI.csproj.CopyComplete
+C:\Users\Clarence Paingas\source\repos\PayrollSystem\PAYROLLSYSTEM.UI\obj\Debug\netcoreapp3.1\PAYROLLSYSTEM.UI.dll
+C:\Users\Clarence Paingas\source\repos\PayrollSystem\PAYROLLSYSTEM.UI\obj\Debug\netcoreapp3.1\PAYROLLSYSTEM.UI.pdb
+C:\Users\Clarence Paingas\source\repos\PayrollSystem\PAYROLLSYSTEM.UI\obj\Debug\netcoreapp3.1\PAYROLLSYSTEM.UI.genruntimeconfig.cache
