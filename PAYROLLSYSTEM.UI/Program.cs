@@ -16,13 +16,13 @@ namespace PAYROLLSYSTEM.UI
             USERLoginDetails.Password = "password";
             USERLoginDetails.Attempts = 0;
 
-            CREATEPAYROLLDetails.Name1 = "Mary Paingas";
-            CREATEPAYROLLDetails.Name2 = "Clarence Martin";
-            CREATEPAYROLLDetails.Name3 = "Dolores Lobrigo";
+            MANAGEEMPLOYEESDetails.Name1 = "Mary Paingas";
+            MANAGEEMPLOYEESDetails.Name2 = "Clarence Martin";
+            MANAGEEMPLOYEESDetails.Name3 = "Dolores Lobrigo";
 
-            CREATEPAYROLL.AddNames(CREATEPAYROLLDetails.Name1);
-            CREATEPAYROLL.AddNames(CREATEPAYROLLDetails.Name2);
-            CREATEPAYROLL.AddNames(CREATEPAYROLLDetails.Name3);
+            MANAGEEMPLOYEES.AddNames(MANAGEEMPLOYEESDetails.Name1);
+            MANAGEEMPLOYEES.AddNames(MANAGEEMPLOYEESDetails.Name2);
+            MANAGEEMPLOYEES.AddNames(MANAGEEMPLOYEESDetails.Name3);
 
             do
             {
@@ -156,12 +156,12 @@ namespace PAYROLLSYSTEM.UI
             USERReports.AddActionReport(message);
 
             message = "Employee Name:\t\t\t\t\t" + CREATEPAYROLLDetails.NameInput;
-            PAYROLLHISTORY.AddPayrollDetail(message);
+            PAYROLLPROCESSINGHistory.AddPayrollDetail(message);
 
             message = "\t\t" + CREATEPAYROLLDetails.NameInput;
             PAYROLLHISTORY.AddEmployeeName(message);
 
-            if (CREATEPAYROLL.Names.Any(s => s.Equals(CREATEPAYROLLDetails.NameInput, StringComparison.OrdinalIgnoreCase)))
+            if (MANAGEEMPLOYEES.Names.Any(s => s.Equals(CREATEPAYROLLDetails.NameInput, StringComparison.OrdinalIgnoreCase)))
             {
 
                 Console.WriteLine("\n-------------------------------------------------------------------");
@@ -172,51 +172,51 @@ namespace PAYROLLSYSTEM.UI
                 message = "Days Present:\t" + CREATEPAYROLLDetails.DaysPresent + " days";
                 USERReports.AddActionReport(message);
                 message = "Total Days Present:\t\t\t\t" + CREATEPAYROLLDetails.DaysPresent + " days";
-                PAYROLLHISTORY.AddPayrollDetail(message);
+                PAYROLLPROCESSINGHistory.AddPayrollDetail(message);
 
                 Console.Write("\nTotal Hours Worked: ");
                 CREATEPAYROLLDetails.HoursWorked = Convert.ToInt32(Console.ReadLine());
                 message = "Hours Worked:\t" + CREATEPAYROLLDetails.HoursWorked + " hours";
                 USERReports.AddActionReport(message);
                 message = "Total Hours Worked:\t\t\t\t" + CREATEPAYROLLDetails.HoursWorked + " hours";
-                PAYROLLHISTORY.AddPayrollDetail(message);
+                PAYROLLPROCESSINGHistory.AddPayrollDetail(message);
 
                 Console.Write("\nHourly Rate: ");
                 CREATEPAYROLLDetails.HourlyRate = Convert.ToInt32(Console.ReadLine());
                 message = "Hourly Rate:\tPhp. " + CREATEPAYROLLDetails.HourlyRate;
                 USERReports.AddActionReport(message);
                 message = "Hourly Rate:\t\t\t\t\tPhp. " + CREATEPAYROLLDetails.HourlyRate;
-                PAYROLLHISTORY.AddPayrollDetail(message);
+                PAYROLLPROCESSINGHistory.AddPayrollDetail(message);
 
                 Console.Write("\nTotal Over Time Hours Worked: ");
                 CREATEPAYROLLDetails.OTHoursWorked = Convert.ToInt32(Console.ReadLine());
                 message = "OT Hours Worked:" + CREATEPAYROLLDetails.OTHoursWorked + " hours";
                 USERReports.AddActionReport(message);
                 message = "Total OT Hours Worked:\t\t\t\t" + CREATEPAYROLLDetails.OTHoursWorked + " hours";
-                PAYROLLHISTORY.AddPayrollDetail(message);
+                PAYROLLPROCESSINGHistory.AddPayrollDetail(message);
 
                 Console.Write("\nOver Time Rate: ");
                 CREATEPAYROLLDetails.OTRate = Convert.ToInt32(Console.ReadLine());
                 message = "OT Rate:\tPhp. " + CREATEPAYROLLDetails.OTRate;
                 USERReports.AddActionReport(message);
                 message = "OT Rate:\t\t\t\t\tPhp. " + CREATEPAYROLLDetails.OTRate;
-                PAYROLLHISTORY.AddPayrollDetail(message);
+                PAYROLLPROCESSINGHistory.AddPayrollDetail(message);
 
                 Console.Write("\nBonus: ");
                 CREATEPAYROLLDetails.Bonus = Convert.ToInt32(Console.ReadLine());
                 message = "Bonus:\t\tPhp. " + CREATEPAYROLLDetails.Bonus;
                 USERReports.AddActionReport(message);
                 message = "Bonus:\t\t\t\t\t\tPhp. " + CREATEPAYROLLDetails.Bonus;
-                PAYROLLHISTORY.AddPayrollDetail(message);
+                PAYROLLPROCESSINGHistory.AddPayrollDetail(message);
 
-                CREATEPAYROLL.CalculateGrossIncome();
+                CREATEPAYROLL_GrossIncome_.CalculateGrossIncome();
 
                 message = "Gross Income:\tPhp. " + CREATEPAYROLLDetails.GrossIncome;
                 USERReports.AddResultReport(message);
                 message = "\t\t\t\t\t---------------------------";
-                PAYROLLHISTORY.AddPayrollDetail(message);
+                PAYROLLPROCESSINGHistory.AddPayrollDetail(message);
                 message = "GROSS INCOME:\t\t\t\t\tPhp. " + CREATEPAYROLLDetails.GrossIncome + "\n";
-                PAYROLLHISTORY.AddPayrollDetail(message);
+                PAYROLLPROCESSINGHistory.AddPayrollDetail(message);
 
                 message = "\tPhp. " + CREATEPAYROLLDetails.GrossIncome;
                 PAYROLLHISTORY.AddGrossIncome(message);
@@ -232,65 +232,65 @@ namespace PAYROLLSYSTEM.UI
                 message = "Tax:\t\tPhp. " + CREATEPAYROLLDetails.Tax;
                 USERReports.AddActionReport(message);
                 message = "Tax:\t\t\t\t\t\tPhp. " + CREATEPAYROLLDetails.Tax;
-                PAYROLLHISTORY.AddPayrollDetail(message);
+                PAYROLLPROCESSINGHistory.AddPayrollDetail(message);
 
                 Console.Write("\nSSS: ");
                 CREATEPAYROLLDetails.SSS = Convert.ToInt32(Console.ReadLine());
                 message = "SSS:\t\tPhp. " + CREATEPAYROLLDetails.SSS;
                 USERReports.AddActionReport(message);
                 message = "SSS:\t\t\t\t\t\tPhp. " + CREATEPAYROLLDetails.SSS;
-                PAYROLLHISTORY.AddPayrollDetail(message);
+                PAYROLLPROCESSINGHistory.AddPayrollDetail(message);
 
                 Console.Write("\nPhilHealth: ");
                 CREATEPAYROLLDetails.PhilHealth = Convert.ToInt32(Console.ReadLine());
                 message = "PhilHealth:\tPhp. " + CREATEPAYROLLDetails.PhilHealth;
                 USERReports.AddActionReport(message);
                 message = "PhilHealth:\t\t\t\t\tPhp. " + CREATEPAYROLLDetails.PhilHealth;
-                PAYROLLHISTORY.AddPayrollDetail(message);
+                PAYROLLPROCESSINGHistory.AddPayrollDetail(message);
 
                 Console.Write("\nPag Ibig: ");
                 CREATEPAYROLLDetails.PagIbig = Convert.ToInt32(Console.ReadLine());
                 message = "Pag Ibig:\tPhp. " + CREATEPAYROLLDetails.PagIbig;
                 USERReports.AddActionReport(message);
                 message = "Pag Ibig:\t\t\t\t\tPhp. " + CREATEPAYROLLDetails.PagIbig;
-                PAYROLLHISTORY.AddPayrollDetail(message);
+                PAYROLLPROCESSINGHistory.AddPayrollDetail(message);
 
                 Console.Write("\nCash Advance: ");
                 CREATEPAYROLLDetails.CashAdvance = Convert.ToInt32(Console.ReadLine());
                 message = "Cash Advance:\tPhp. " + CREATEPAYROLLDetails.CashAdvance;
                 USERReports.AddActionReport(message);
                 message = "Cash Advance:\t\t\t\t\tPhp. " + CREATEPAYROLLDetails.CashAdvance;
-                PAYROLLHISTORY.AddPayrollDetail(message);
+                PAYROLLPROCESSINGHistory.AddPayrollDetail(message);
 
                 Console.Write("\nSalary Loan: ");
                 CREATEPAYROLLDetails.SalaryLoan = Convert.ToInt32(Console.ReadLine());
                 message = "Salary Loan:\tPhp. " + CREATEPAYROLLDetails.SalaryLoan;
                 USERReports.AddActionReport(message);
                 message = "Salary Loan:\t\t\t\t\tPhp. " + CREATEPAYROLLDetails.SalaryLoan;
-                PAYROLLHISTORY.AddPayrollDetail(message);
+                PAYROLLPROCESSINGHistory.AddPayrollDetail(message);
 
                 Console.Write("\nPag Ibig Loan: ");
                 CREATEPAYROLLDetails.PagIbigLoan = Convert.ToInt32(Console.ReadLine());
                 message = "Pag Ibig Loan:\tPhp. " + CREATEPAYROLLDetails.PagIbigLoan;
                 USERReports.AddActionReport(message);
                 message = "Pag Ibig Loan:\t\t\t\t\tPhp. " + CREATEPAYROLLDetails.PagIbigLoan;
-                PAYROLLHISTORY.AddPayrollDetail(message);
+                PAYROLLPROCESSINGHistory.AddPayrollDetail(message);
 
                 Console.Write("\nOthers: ");
                 CREATEPAYROLLDetails.Others = Convert.ToInt32(Console.ReadLine());
                 message = "Others:\t\tPhp. " + CREATEPAYROLLDetails.Others;
                 USERReports.AddActionReport(message);
                 message = "Others: \t\t\t\t\tPhp. " + CREATEPAYROLLDetails.Others;
-                PAYROLLHISTORY.AddPayrollDetail(message);
+                PAYROLLPROCESSINGHistory.AddPayrollDetail(message);
 
-                CREATEPAYROLL.CalculateNetIncome();
+                CREATEPAYROLL_NetIncome_.CalculateNetIncome();
 
                 message = "Net Income:\tPhp. " + CREATEPAYROLLDetails.NetIncome;
                 USERReports.AddResultReport(message);
                 message = "\t\t\t\t\t---------------------------";
-                PAYROLLHISTORY.AddPayrollDetail(message);
+                PAYROLLPROCESSINGHistory.AddPayrollDetail(message);
                 message = "NET INCOME:\t\t\t\t\tPhp. " + CREATEPAYROLLDetails.NetIncome + "\n";
-                PAYROLLHISTORY.AddPayrollDetail(message);
+                PAYROLLPROCESSINGHistory.AddPayrollDetail(message);
 
                 message = "\tPhp. " + CREATEPAYROLLDetails.NetIncome;
                 PAYROLLHISTORY.AddNetIncome(message);
@@ -361,7 +361,7 @@ namespace PAYROLLSYSTEM.UI
                     Console.WriteLine("               V I E W   P A Y R O L L   D E T A I L S");
                     Console.WriteLine("-------------------------------------------------------------------");
 
-                    PAYROLLHISTORY.ShowPayrollDetails();
+                    PAYROLLPROCESSINGHistory.ShowPayrollDetails();
 
                     Console.WriteLine("\n-------------------------------------------------------------------");
                     Console.WriteLine("PLEASE PRESS ANY KEY TO GO BACK TO PAYROLL PROCESSING OPTIONS.");
@@ -539,7 +539,7 @@ namespace PAYROLLSYSTEM.UI
             Console.WriteLine("                V I E W   E M P L O Y E E   L I S T");
             Console.WriteLine("-------------------------------------------------------------------\n");
 
-            foreach (var name in CREATEPAYROLL.Names)
+            foreach (var name in MANAGEEMPLOYEES.Names)
             {
                 Console.WriteLine(name);
             }

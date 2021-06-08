@@ -6,9 +6,8 @@ namespace PAYROLLSYSTEM.BL
 {
     public class CREATEPAYROLLDetails
     {
-        public static string Name1 { get; set; }
-        public static string Name2 { get; set; }
-        public static string Name3 { get; set; }
+        //CREATEPAYROLLDetails
+        //-class po na pinaglalagyan po ng lahat po ng mga properties po na gamit ko po para po sa CreatePayroll(gross income at net income)
         public static string NameInput { get; set; }
         public static int DaysPresent { get; set; }
         public static int HoursWorked { get; set; }

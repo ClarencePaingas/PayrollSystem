@@ -6,7 +6,9 @@ namespace PAYROLLSYSTEM.BL
 {
     public class MANAGEEMPLOYEESDetails
     {
-
+        public static string Name1 { get; set; }
+        public static string Name2 { get; set; }
+        public static string Name3 { get; set; }
         public string EmployeeName { get; set; }
         public string Position { get; set; }
         public string Department { get; set; }
