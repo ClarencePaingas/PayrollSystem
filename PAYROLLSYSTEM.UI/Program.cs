@@ -592,6 +592,7 @@ namespace PAYROLLSYSTEM.UI
                     Console.WriteLine("-------------------------------------------------------------------");
                     Console.WriteLine("EMPLOYEE NAME DOES NOT EXIST. PLEASE PRESS ANY KEY TO TRY AGAIN.\n");
                     Console.ReadKey();
+                    ViewEmployeeProfile();
                     break;
             }
 
