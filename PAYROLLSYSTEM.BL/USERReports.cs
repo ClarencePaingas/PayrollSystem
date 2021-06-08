@@ -6,6 +6,7 @@ namespace PAYROLLSYSTEM.BL
 {
     public class USERReports
     {
+        //-method po pang display ng lahat po ng ininput or ginawa ni user
 
         private static readonly List<string> Reports = new List<string>();
 

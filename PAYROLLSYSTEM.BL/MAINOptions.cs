@@ -8,6 +8,7 @@ namespace PAYROLLSYSTEM.BL
 {
     public class MAINOptions
     {
+        //-eto po yung pang display ko po nung main options po ng user.
         public static void DisplayMainOptions()
         {
 

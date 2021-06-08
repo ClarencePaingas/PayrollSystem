@@ -7,10 +7,6 @@ namespace PAYROLLSYSTEM.BL
 {
     public class USERLogin
     {
-        //-class po para po pang authenticate po ng user.
-        //Kapag po tama po yung ininput ni user na log in details,
-        //dederetcho na po sya sa main Options.
-        //Kapag hindi po tama, mag e exit po yung program.
 
         public static void LoginAuthentication()
         {

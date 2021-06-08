@@ -6,7 +6,6 @@ namespace PAYROLLSYSTEM.BL
 {
     public class CREATEPAYROLL_NetIncome_
     {
-        //CREATEPAYROLL_NetIncome_
         //-Dito po kina calculate yung net income.
 
         public static void CalculateNetIncome()

@@ -6,6 +6,10 @@ namespace PAYROLLSYSTEM.BL
 {
     public class MANAGEEMPLOYEESDetails
     {
+        //-dito ko po nilalagay yung mga properties ko po
+        //para sa MANAGEEMPLOYEES na class po
+        //tsaka para na din po sa mga iniinput po na value
+        //ni user na payroll details po ng employee
         public static string Name1 { get; set; }
         public static string Name2 { get; set; }
         public static string Name3 { get; set; }

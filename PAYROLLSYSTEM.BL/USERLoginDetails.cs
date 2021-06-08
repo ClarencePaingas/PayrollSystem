@@ -7,7 +7,7 @@ namespace PAYROLLSYSTEM.BL
 {
     public class USERLoginDetails
     {
-
+        //-dito ko po nilagay yung mga properties na ginamit ko sa UserLogin
         public static string Username { get; set; }
         public static string Password { get; set; }
         public static string UsernameInput { get; set; }

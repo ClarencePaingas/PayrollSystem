@@ -6,8 +6,12 @@ namespace PAYROLLSYSTEM.BL
 {
     public class PAYROLLHISTORY
     {
-        private static readonly List<string> PayrollHistory = new List<string>();
 
+        //-nandito po yung method ko para po ma tingnan or ma monitor po yung mga
+        //payroll po na ginawa/prinocess po ng user.
+        //Parang reports po pero para lang po sa summary (or yung mga pinaka important
+        //na information) po ng payroll na mga ginawa/prinocess ng user.
+        private static readonly List<string> PayrollHistory = new List<string>();
 
         public static void AddEmployeeName(string name)
         {
