@@ -1,0 +1,9 @@
+C:\Users\Clarence\source\repos\PS.UI\PS.BL\bin\Debug\netcoreapp3.1\PS.BL.deps.json
+C:\Users\Clarence\source\repos\PS.UI\PS.BL\bin\Debug\netcoreapp3.1\PS.BL.dll
+C:\Users\Clarence\source\repos\PS.UI\PS.BL\bin\Debug\netcoreapp3.1\PS.BL.pdb
+C:\Users\Clarence\source\repos\PS.UI\PS.BL\obj\Debug\netcoreapp3.1\PS.BL.csproj.AssemblyReference.cache
+C:\Users\Clarence\source\repos\PS.UI\PS.BL\obj\Debug\netcoreapp3.1\PS.BL.AssemblyInfoInputs.cache
+C:\Users\Clarence\source\repos\PS.UI\PS.BL\obj\Debug\netcoreapp3.1\PS.BL.AssemblyInfo.cs
+C:\Users\Clarence\source\repos\PS.UI\PS.BL\obj\Debug\netcoreapp3.1\PS.BL.csproj.CoreCompileInputs.cache
+C:\Users\Clarence\source\repos\PS.UI\PS.BL\obj\Debug\netcoreapp3.1\PS.BL.dll
+C:\Users\Clarence\source\repos\PS.UI\PS.BL\obj\Debug\netcoreapp3.1\PS.BL.pdb

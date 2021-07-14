@@ -1,0 +1,47 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "PS.UI/1.0.0": {
+        "dependencies": {
+          "PS.BL": "1.0.0",
+          "PS.Common": "1.0.0"
+        },
+        "runtime": {
+          "PS.UI.dll": {}
+        }
+      },
+      "PS.BL/1.0.0": {
+        "runtime": {
+          "PS.BL.dll": {}
+        }
+      },
+      "PS.Common/1.0.0": {
+        "runtime": {
+          "PS.Common.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PS.UI/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PS.BL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PS.Common/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
